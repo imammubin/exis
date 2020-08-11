@@ -1,0 +1,34 @@
+1. 
+Soal:
+
+	1
+	22
+	333
+	4444
+	55555
+
+Jawaban:
+Berikan initial value untuk n=5 dan buat tiga buah variable untuk looping, i=0, z=0, cetak=""
+
+Print i secara looping selama i<=5, dalam setiap langkah looping samakan variable z dengan i, print dengan i juga.
+selama proses looping print ulang z sebanyak jumlah i
+
+Implementasi
+var i,z,cetak;
+var n=5;
+for (i=1; i<=n ;i++)
+{
+    cetak=i;
+    z=i;
+   	while(z>1) {cetak+=""+i; z=z-1;  } 
+	console.log(cetak);
+}
+---------------
+var i,z,cetak;
+var n=5;
+for (i=1; i<=n ;i++)
+{
+    cetak=i;
+   	if(i>1)for(z=1; z<i;z++ ) {cetak+=""+(i);  } 
+	console.log(cetak);
+}

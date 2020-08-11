@@ -1,0 +1,21 @@
+4. 
+looping dan cetak baris menggunakan variable looping i sebanyak jumlah n
+dalam setiap langkah looping cetak kolom variable sebanyak jumlah n, pada kolom jenis odd di hitung maju dan pada kolom jenis even dihitung mundur
+
+var n=5;
+for(i=1; i<=n; i++)
+{
+	print=i;
+	for(z=2; z<=n; z++)
+	{
+     if(z%2==0){
+        if(i==1)print+=" "+((n*z)-0);
+        else print+=" "+((n*z)-(i-1));
+    }
+	 else {
+        print+=" "+((n*(z-1))+i);
+     }
+	}
+	
+	console.log(print);
+}

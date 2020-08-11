@@ -1,0 +1,3 @@
+3
+looping sebanyak jumlah n, dalam setiap langkah looping cetak variable sebanyak langkah looping 
+variable yang dicetak berutan maju 12345 tapi jika variable langkah looping sama dengan n maka cetak variable mundur 54321.
