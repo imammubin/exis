@@ -1,0 +1,5 @@
+masukan kalimat dalam variable
+hitung jumlah hurup dalam variable
+looping sebanyak jumlah hurup
+pada langkah looping dapatkan cari urutan huruf di posisi kalimat berdasarkan posisi langkah looping
+Jika huruf adalah R ganti dengan L, jika r ganti dengan l
